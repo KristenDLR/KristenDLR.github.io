@@ -19,7 +19,7 @@ heigh:100% ;
 const LinkItem = styled.li`
 height: 100%;
 padding;0 1.1em;
-color: yellow;
+color: #fff;
 font-weight: 500;
 font-size:20px;
 align-items: center;

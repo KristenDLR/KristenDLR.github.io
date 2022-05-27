@@ -1,4 +1,4 @@
-import { React, useState } from 'react';
+import { React } from 'react';
 import me from '../../assets/large/About/mePurple.jpg'
 import "./styles.scss";
 import Container from 'react-bootstrap/Container';

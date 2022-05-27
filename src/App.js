@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './components/Home/Home';
 import About from './components/About/About';
-import Nav from './components/Nav/Nav';
+// import Nav from './components/Nav/Nav';
 import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact';
 import Resume from './components/Resume/Resume';
@@ -15,7 +15,7 @@ function App() {
   return (
 
     <BrowserRouter>
-      <Nav></Nav>
+      {/* <Nav></Nav> */}
       <NavBar></NavBar>
      <Routes>
         <Route path="/" element={<Home />} />

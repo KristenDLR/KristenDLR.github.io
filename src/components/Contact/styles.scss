@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@700&family=Kalam:wght@300&family=Viga&display=swap');
+
+.containerC {
+    background-image: url("../../assets/cover/kai-mason-4BM4nHPBI_Y-unsplash.jpg");
+    background-size: cover;
+    border-radius: 30px;
+    padding:30px;
+  }
+
+h1 {
+    font-family: 'Viga', sans-serif;
+    text-align: right;
+}
+h3{
+    font-size: 15px;
+    font-family: 'Viga', sans-serif;
+    margin-bottom: 20px;
+}
+
+Form{
+    width:95%;
+    background-color: white;
+    border-radius: 30px;
+    padding:20px;
+    margin:20px;
+}
+
+.message {
+    text-align: center;
+  
+}
+
+.messageBox{
+    width:100%;
+    height:200%;
+}
+
+.contactButton{
+    margin-top:50px;
+   text-align: center;
+}

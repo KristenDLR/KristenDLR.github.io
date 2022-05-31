@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b6b0361.css",
+    "main.js": "/static/js/main.07c150b5.js",
+    "static/js/787.d0fc6f61.chunk.js": "/static/js/787.d0fc6f61.chunk.js",
+    "static/media/kai-mason-4BM4nHPBI_Y-unsplash.jpg": "/static/media/kai-mason-4BM4nHPBI_Y-unsplash.bbbb46f979bbdd10c65b.jpg",
+    "static/media/phone.jpg": "/static/media/phone.d5284a16d24188cdae43.jpg",
+    "static/media/nasa.jpg": "/static/media/nasa.93f70604281521b59a3e.jpg",
+    "static/media/arcade.jpg": "/static/media/arcade.a145eaf3763997a7921b.jpg",
+    "static/media/KristenDeLaRosa.gif": "/static/media/KristenDeLaRosa.af302dc80f006f07f532.gif",
+    "static/media/2022WDResumeLA.jpg": "/static/media/2022WDResumeLA.190da56f962f94c6d92c.jpg",
+    "static/media/mePurple.jpg": "/static/media/mePurple.f252cdfcfae5b46783a9.jpg",
+    "static/media/2022WDResumeLA2.jpg": "/static/media/2022WDResumeLA2.8c47e3ff5699e23d3329.jpg",
+    "static/media/2022WDResumeLA.pdf": "/static/media/2022WDResumeLA.8119dabc279963f14aad.pdf",
+    "index.html": "/index.html",
+    "main.7b6b0361.css.map": "/static/css/main.7b6b0361.css.map",
+    "main.07c150b5.js.map": "/static/js/main.07c150b5.js.map",
+    "787.d0fc6f61.chunk.js.map": "/static/js/787.d0fc6f61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b6b0361.css",
+    "static/js/main.07c150b5.js"
+  ]
+}

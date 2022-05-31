@@ -33,11 +33,7 @@ transition: all 22-,s ease-in-out;
 }
 `;
 
-// const LinkStyle = styled.a`
-// text-decorayion:none;
-// color:inherit;
-// font-size:inherit;
-// `;
+
 
 export function NavLinks(props) {
     return <NavLinksContainer>

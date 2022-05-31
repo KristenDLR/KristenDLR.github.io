@@ -4,10 +4,11 @@ import cn from "classnames";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faBackwardStep, faForwardStep } from '@fortawesome/free-solid-svg-icons'
+import { faBackwardStep, faPlay } from '@fortawesome/free-solid-svg-icons'
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import "../Portfolio/styles.scss";
 
 
 function FlipCard({ card }) {
@@ -44,19 +45,19 @@ function FlipCard({ card }) {
         </div>
         <div className="card back">
           <div className="card-body">
-            <div className="row">
+            <Row>
               < a href={card.gitHub} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} src={card.gitHub}></FontAwesomeIcon>
                 <h1 className="cardTitle" src={card.gitHub}>{card.front}</h1>
                 </a>
-            </div>
+            </Row>
             <p className=" back card-text fs-1 fw-bold">{card.back}</p>
-            <div className="row">
+            <Row className="techIcons">
                <img className="icon" src= {card.icon1} alt="icon"></img>
                <img className="icon" src= {card.icon2} alt="icon"></img>
                <img className="icon" src= {card.icon3} alt="icon"></img>
-            </div>
-            <Row>
+            </Row>
+            <Row className="projButtons">
               <Col>
                  <button className="buttonPort" onClick={handleClick} >
                  <FontAwesomeIcon icon={faBackwardStep} />
@@ -65,7 +66,7 @@ function FlipCard({ card }) {
               <Col>
                <a href={card.link} target="_blank" rel="noopener noreferrer" >
                  <button className="buttonPort" >
-                 <FontAwesomeIcon icon={faForwardStep} />
+                 <FontAwesomeIcon icon={faPlay} />
                  </button>
                </a>
                </Col>

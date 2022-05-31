@@ -58,18 +58,7 @@ function Portfolio() {
       icon3: cssIcon,
       gitHub:"https://github.com/KristenDLR/quiz-game",
       link:"https://kristendlr.github.io/quiz-game/"
-    },{
-      id: "4",
-      variant: "click",
-      front: "Code Quiz",
-      background:arcade,
-      back: "This app feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes. Timed code quiz that's made up of multiple-choice questions.",
-      icon1:htmlIcon,
-      icon2: jsIcon,
-      icon3: cssIcon,
-      gitHub:"https://github.com/KristenDLR/quiz-game",
-      link:"https://kristendlr.github.io/quiz-game/"
-    },   
+    }
   ];
 
   return (
@@ -78,7 +67,7 @@ function Portfolio() {
     <h1 id="home2">{capitalizeFirstLetter(currentTab.name)}</h1>
     <div className="containerP">
       <div className="row h-100">
-        <div style={{display: 'flex', flexWrap: 'wrap'}} className="col">
+        <div className="col d-flex flex-column flex-md-row justify-content-around align-items-center">
           {cards.map((card) => (
             <FlipCard key={card.id} card={card}  style={{flex: 1}}/>
           ))}

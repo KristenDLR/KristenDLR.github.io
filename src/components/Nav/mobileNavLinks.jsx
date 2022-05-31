@@ -2,7 +2,7 @@ import { React, useState } from 'react';
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
 import Burger from './Burger';
-
+import "./styles.scss";
 
 const NavLinksContainer = styled.div`
 height:100%;
@@ -17,6 +17,7 @@ display:flex;
 z-index:1;
 list-style: none;
 background-color: #000;
+color:#fff;
 width: 100%;
 flex-direction: column;
 position: absolute;
@@ -28,7 +29,7 @@ const LinkItem = styled.li`
 height: 100%;
 width:100%;
 padding;0 1.1em;
-color: #222;
+color: #fff;
 font-weight: 500;
 font-size:20px;
 display:flex;
@@ -40,11 +41,9 @@ transition: all 22-,s ease-in-out;
 }
 `;
 
-// const LinkStyle = styled.a`
-// text-decorayion:none;
-// color:inherit;
-// font-size:inherit;
-// `;
+
+
+
 
 export function MobileNavLinks(props) {
     const [open, setOpen] = useState(false);

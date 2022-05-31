@@ -18,20 +18,25 @@ function About() {
      <Row style={{ marginLeft:'20px'}}>
       <Col>
       <h1 id="about">About Me</h1>
-      <p style={{ color:'white'}}>Highly motivated developer with demonstrated experience in both front and backend development. Working as a Senior Learning Assistant for Trilogy 2U Instructional Program. Have worked on producing high-quality, responsive design and exceptional user experience with a focus on detailed documentation, establishing multi-device compatibility, and web performance. Proficient in the following areas:</p>
+      <p style={{ color:'white'}}>I am a Web Developer working as a Senior Learning Assistant for 2U Trilogy Instructional Program, with strong analytical skills and a desire to work with emerging technologies. Purposeful and self-motivated with proficiency in JavaScript, HTML, CSS, and responsive web development with cross-browser compatibility, as well as a track record of learning new technologies. Have worked on producing high-quality, responsive design and exceptional user experience with a focus on detailed documentation, establishing multi-device compatibility, and exceptional user interface experience with efficient product design.
+. Proficient in the following areas:</p>
       <ul style={{ color:'white'}}>
-        <li>
-        <FontAwesomeIcon icon={faTerminal} /> Responsive HTML/CSS</li>
-        <li> <FontAwesomeIcon icon={faTerminal} /> JavaScript</li>
-        <li><FontAwesomeIcon icon={faTerminal} /> React</li>
+        <li><FontAwesomeIcon icon={faTerminal} /> HTML</li>
+        <li><FontAwesomeIcon icon={faTerminal} /> Wireframe</li>
+        <li> <FontAwesomeIcon icon={faTerminal} /> CSS/SASS</li>
+        <li><FontAwesomeIcon icon={faTerminal} /> Jacascript</li>
+        <li><FontAwesomeIcon icon={faTerminal} /> React (Redux, Es6)</li>
         <li><FontAwesomeIcon icon={faTerminal} /> Handlebars.js</li>
-        <li><FontAwesomeIcon icon={faTerminal} /> API Framework</li>
-        <li><FontAwesomeIcon icon={faTerminal} /> Firebase</li>
+        <li><FontAwesomeIcon icon={faTerminal} /> REST API</li>
+        <li><FontAwesomeIcon icon={faTerminal} /> AJAX</li>
+        <li><FontAwesomeIcon icon={faTerminal} /> Node</li>
         <li><FontAwesomeIcon icon={faTerminal} /> MySQL</li>
         <li><FontAwesomeIcon icon={faTerminal} /> MongoDB</li>
-        <li><FontAwesomeIcon icon={faTerminal} /> Firebase</li>
-        <li><FontAwesomeIcon icon={faTerminal} /> Github</li>
+        <li><FontAwesomeIcon icon={faTerminal} /> Express</li>
+        <li><FontAwesomeIcon icon={faTerminal} /> Github- version control</li>
+        <li><FontAwesomeIcon icon={faTerminal} /> Object-Relational Mapping</li>
         <li><FontAwesomeIcon icon={faTerminal} /> Heroku</li>
+        <li><FontAwesomeIcon icon={faTerminal} /> AWS</li>
       </ul>
       <p style={{ color:'white'}}>I take great care to ensure all projects represent the most viable product by providing high quality, responsive, project tested on a wide range of devices. I consider well document and easily-maintained projects enhance website functionality for proper growth.</p>
        </Col>

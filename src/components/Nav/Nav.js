@@ -1,9 +1,8 @@
 import React from 'react';
 import logo from '../../assets/cover/KristenDeLaRosa.gif';
 import { Link } from 'react-router-dom';
-// import Hamburger from './Hamburger';
 import "./styles.scss";
-// import Hamburger from 'hamburger-react'
+
 
 function Nav() {
 
@@ -16,8 +15,6 @@ function Nav() {
         <Link to="/portfolio">Portfolio</Link>
         <Link to="/resume" >Resume</Link>
         <Link to="/contact">Contact</Link>
-     
-        {/* <Hamburger /> */}
      
       </ul>
      

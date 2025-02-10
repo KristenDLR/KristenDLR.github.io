@@ -10,6 +10,7 @@ import react from "./React Native-48-96px/icons8-react-native-96.png";
 import postgress from "./Postgress/icons8-postgresql-96.png";
 import github from "./Github/icons8-github-96.png";
 import linkedIn from "./LinkedIn/icons8-linkedin-96.png";
+import API from "./API-48-96px/icons8-api-48.png";
 
 export const gitBadge = git;
 
@@ -34,3 +35,5 @@ export const postgressBadge = postgress;
 export const githubBadge = github;
 
 export const linkedInBadge = linkedIn;
+
+export const api = API;

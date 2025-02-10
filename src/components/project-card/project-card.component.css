@@ -1,0 +1,18 @@
+.projectCard {
+  border-radius: 0.25em;
+  box-shadow: 3px 3px #efc918, -1em 0 0.4em #ff8400;
+  border: 0.25rem solid black;
+  margin-top: 40px;
+  margin-bottom: 20px;
+ 
+}
+
+.linkIcon{
+  margin-right: 10px;
+}
+
+.cardCopy {
+  text-align: center;
+  padding: 10px;
+  font-family: "Atma", serif !important;
+}

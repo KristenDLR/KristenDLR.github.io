@@ -14,7 +14,7 @@ export const experienceArray = [
         sx={{ width: "100%" }}
       />
     ),
-    text: " Led the development of key product features from concept to release, facilitating regular communication with product managers and stakeholders",
+    text: "Spearheaded the development of critical product features from initial concept through to successful release, maintaining consistent communication with product managers and key stakeholders throughout the process.",
   },
   {
     icon: (
@@ -24,7 +24,7 @@ export const experienceArray = [
         sx={{ width: "100%" }}
       />
     ),
-    text: "Coordinated with cross-functional teams, monitored and tracked feature performance post-release, to gather feedback from users and stakeholders to inform future improvements and iterations.",
+    text: "Led cross-functional collaboration, analyzed feature performance post-release, and synthesized user and stakeholder feedback to drive continuous improvement.",
   },
   {
     icon: (
@@ -44,7 +44,7 @@ export const experienceArray = [
         sx={{ width: "100%" }}
       />
     ),
-    text: "Actively participated in the company Site Reliability Engineering (SRE) collaboration guild. Supported the development and implementation of monitoring and alerting systems, enhancing observability to detect and address potential system failures proactively.",
+    text: "Contributed to the company’s Site Reliability Engineering (SRE) collaboration guild by developing and refining monitoring and alerting systems, enhancing observability to proactively detect and resolve potential system failures.",
   },
   //__________
   {
@@ -65,6 +65,6 @@ export const experienceArray = [
         sx={{ width: "100%" }}
       />
     ),
-    text: "Planned and executed multiple company-wide events focused on cultural awareness, professional development, and social impact, increasing employee engagement and awareness of DEI.",
+    text: "Designed, led, and executed company-wide events focused on cultural awareness, professional development, and social impact, boosting employee engagement and DEI awareness.",
   },
 ];

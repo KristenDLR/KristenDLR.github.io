@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import "./skills.section.css";
-import resumePDF from "../skills/DeLaRosa-Resume_24.pdf";
+import resumePDF from "../skills/DeLaRosa-Resume_25.pdf";
 import DownloadForOfflineRoundedIcon from "@mui/icons-material/DownloadForOfflineRounded";
 import { experienceArray } from "../../constants/experience";
 import { CurrentExperience } from "./current-experience/current-experience.section";

@@ -62,7 +62,7 @@ export const IntroSection: React.FC<IntroSectionnProps> = ({
           size="small"
           endIcon={<KeyboardDoubleArrowDown />}
         >
-          View My Work
+          Get to know me
         </Button>
       </Box>
     </Box>

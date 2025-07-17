@@ -3,6 +3,8 @@ import {
   api,
   noteTaker,
   PawfectMatchLogo,
+  budgetApp,
+  python,
   reactBadge,
   typescriptBadge,
 } from "assets";
@@ -22,6 +24,12 @@ export const ProjectsSection: React.FC = () => {
   const ApiIcon: React.ElementType = () => (
     <span>
       <img width="40px" height="40px" alt="API Icon" src={api} />
+    </span>
+  );
+
+    const PythonIcon: React.ElementType = () => (
+    <span>
+      <img width="40px" height="40px" alt="Python Icon" src={python} />
     </span>
   );
 
@@ -61,6 +69,15 @@ export const ProjectsSection: React.FC = () => {
   );
 
   const projectsArray = [
+    {
+      projectTitle: "My Budget Buddy",
+      icons: [
+        <PythonIcon />
+      ],
+      activeState: "Active",
+      projectImg: budgetApp,
+      githubLink: "https://github.com/KristenDLR/my-budget-buddy",
+    },
     {
       projectTitle: "Pawfect Match",
       icons: [

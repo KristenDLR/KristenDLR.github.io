@@ -11,6 +11,7 @@ import postgress from "./Postgress/icons8-postgresql-96.png";
 import github from "./Github/icons8-github-96.png";
 import linkedIn from "./LinkedIn/icons8-linkedin-96.png";
 import API from "./API-48-96px/icons8-api-48.png";
+import Python from "./Python/icons8-python-96.png";
 
 export const gitBadge = git;
 
@@ -37,3 +38,5 @@ export const githubBadge = github;
 export const linkedInBadge = linkedIn;
 
 export const api = API;
+
+export const python = Python;

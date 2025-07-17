@@ -15,7 +15,7 @@ import "./project.section.css";
 export const ProjectsSection: React.FC = () => {
   const MantineIcon: React.ElementType = () => (
     <span>
-      <TbBrandMantine size='large' color="#309af0"/>
+      <TbBrandMantine size="large" color="#309af0" />
     </span>
   );
 
@@ -38,7 +38,7 @@ export const ProjectsSection: React.FC = () => {
 
   const PostmanIcon: React.ElementType = () => (
     <span>
-      <SiPostman color="#ff7140" size='large'/>
+      <SiPostman color="#ff7140" size="large" />
     </span>
   );
 
@@ -50,13 +50,13 @@ export const ProjectsSection: React.FC = () => {
 
   const FirbaseIcon: React.ElementType = () => (
     <span>
-      <IoLogoFirebase  color="#feaa1b" size='large' />
+      <IoLogoFirebase color="#feaa1b" size="large" />
     </span>
   );
 
   const ViteIcon: React.ElementType = () => (
     <span>
-      <SiVite color="#a659fc" size='large'/>
+      <SiVite color="#a659fc" size="large" />
     </span>
   );
 
@@ -90,7 +90,12 @@ export const ProjectsSection: React.FC = () => {
       </Typography>
       <Box></Box>
 
-      <Stack className="projects" direction="row" justifyContent='center' spacing={5}>
+      <Stack
+        className="projects"
+        direction="row"
+        justifyContent="center"
+        spacing={5}
+      >
         {projectsArray.map((project) => (
           <ProjectCard
             activeState={project.activeState}
@@ -104,19 +109,6 @@ export const ProjectsSection: React.FC = () => {
         ))}
       </Stack>
 
-      {/* <Box
-        component="iframe"
-        src="https://lottie.host/embed/46748089-0932-4f2c-9bd3-50edb55f8abd/drogb36hoi.json"
-        sx={{
-          width: "100%",
-          height: "500px",
-          border: "none",
-        }}
-      />
-      <Typography className="subText" variant="h4">
-        Working on new projects to flex new skills, check back in to see what I
-        have created.
-      </Typography> */}
     </Box>
   );
 };

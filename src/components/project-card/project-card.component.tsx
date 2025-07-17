@@ -32,57 +32,74 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   websiteLink,
 }) => {
   return (
-    <Card className="projectCard" sx={{ width: 400, display: "flex", flexDirection: "column", alignItems: "center", backgroundColor: " #ffde9e" }}>
+    <Card className="newCard projectCard">
       <CardMedia
-        sx={{ height: 140, width: "100%"  }}
+        className="prjImage"
+        sx={{ height: "100%", width: "100%" }}
         image={projectImg}
         title="project image"
       />
-      <CardContent sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-        <Chip label={activeState} />
-        <Typography className="cardCopy" variant="h4">{projectTitle}</Typography>
-        <Stack mt="10px" direction="row" spacing={1}>
-          {icons.map((icon, index) => (
-            <Box height="50px" key={index}>
-              {icon}
-            </Box>
-          ))}
-        </Stack>
-      </CardContent>
-      <CardActions>
-        <Stack mt="10px" direction="row" spacing={1}>
-          {websiteLink ? (
+
+      <Box className="cardContent">
+        <CardContent
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <Chip label={activeState} variant={activeState === "Active" ? "filled" : "outlined"} />
+          <Typography className="cardCopy" variant="h4">
+            {projectTitle}
+          </Typography>
+          <Stack mt="10px" direction="row" spacing={1}>
+            {icons.map((icon, index) => (
+              <Box height="50px" key={index}>
+                {icon}
+              </Box>
+            ))}
+          </Stack>
+        </CardContent>
+        <CardActions>
+          <Stack mt="10px" direction="row" spacing={1}>
+            {websiteLink ? (
+              <Button
+                color="success"
+                variant="contained"
+                href={websiteLink}
+                sx={{ lineHeight: `100%`, justifyItems: "space-around" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaExternalLinkAlt className="linkIcon" />
+                <Typography variant="caption" sx={{ display: "block" }}>
+                  Open Page
+                </Typography>
+              </Button>
+            ) : (
+              <></>
+            )}
             <Button
               color="success"
               variant="contained"
-              href={websiteLink}
+              href={githubLink}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaExternalLinkAlt className="linkIcon" />
-              Open Page
+              <img
+                width="40px"
+                height="40px"
+                className="githubButton"
+                src={githubBadge}
+                alt="Github"
+              ></img>
+              <Typography variant="caption" sx={{ display: "block" }}>
+                Open in github
+              </Typography>
             </Button>
-          ) : (
-            <></>
-          )}
-          <Button
-            color="success"
-            variant="contained"
-            href={githubLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              width="40px"
-              height="40px"
-              className="githubButton"
-              src={githubBadge}
-              alt="Github"
-            ></img>
-            Open in github
-          </Button>
-        </Stack>
-      </CardActions>
+          </Stack>
+        </CardActions>
+      </Box>
     </Card>
   );
 };
